@@ -1,2 +1,5 @@
+from blackjack.game import BlackjackGame
+
 if __name__ == "__main__":
-    print("bj")
+    game = BlackjackGame()
+    game.play()
